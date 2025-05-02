@@ -5,7 +5,7 @@ Challenge Paper: <TBD>
 
 ## Important features of this challenge
 1. Along with noise suppression, it includes de-reverberation and suppression of interfering talkers for headset and speakerphone scenarios.
-2. The challenge has two tracks: (i) Headset (wired/wireless headphone, earbuds such as airpods etc.) speech enhancement; (ii) Non-headset (speakerphone, built-in mic in laptop/desktop/mobile phone/other meeting devices etc.) speech enhancement. 
+2. The challenge has two tracks: <br><pre>(i) Headset (wired/wireless headphone, earbuds such as airpods etc.) speech enhancement; <br><t>(ii) Non-headset (speakerphone, built-in mic in laptop/desktop/mobile phone/other meeting devices etc.) speech enhancement. 
 3. This challenge adopts the ITU-T P.835 subjective test framework to measure speech quality (SIG), background noise quality (BAK), and overall audio quality (OVRL). We modified the ITU-T P.835 to make it reliable for test clips with interfering (undesired neighboring) talkers. Along with P.835 scores, Word Accuracy (WAcc) is used to measure the performance of models.
 4. Please NOTE that the intellectual property (IP) is not transferred to the challenge organizers, i.e., if code is shared/submitted, the participants remain the owners of their code (when the code is made publicly available, an appropriate license should be added).
 5. There are new requirements for model related latency. Please check all requirements listed at https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-icassp-2023/

@@ -19,13 +19,13 @@ Previous DNS Challenge used RawNet2 speaker embeddings. So far, impact of differ
 pip install speechbrain
 
 #Compute Speaker Embeddings for your wav file with below command:
-
+```python
 import torchaudio
 from speechbrain.pretrained import EncoderClassifier
 classifier = EncoderClassifier.from_hparams(source="speechbrain/spkrec-ecapa-voxceleb")
 signal, fs =torchaudio.load('tests/samples/ASR/spk1_snt1.wav')
 embeddings = classifier.encode_batch(signal)
-
+```
 ## In this repository
 
 This repository contains the datasets and scripts required for 5th DNS Challenge at ICASSP 2023, aka DNS
